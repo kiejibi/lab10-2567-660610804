@@ -1,14 +1,15 @@
 // add type for UserCard's Props
-interface UserCardProps {
+interface UserCardProps{
     name: string;
     email: string;
-    imgUrl: any;
+    imgUrl:any;
     address: string;
 }
 
-interface UserCardDetails {
+interface UserCardDetails{
     email: string;
     address: string;
 }
-export type {UserCardProps,UserCardDetails};
+
+export type {UserCardProps,UserCardDetails}
 // add type for UserCardDetail's Props
